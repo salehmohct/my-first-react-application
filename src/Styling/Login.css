@@ -81,3 +81,10 @@
   margin: 10px auto !important;
   width: fit-content !important;
 }
+.SignUpDesCon {
+  margin: 0 !important;
+}
+.SignUpDesCon .Description {
+  margin: 0 !important;
+  font-size: 18px !important;
+}

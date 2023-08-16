@@ -1,7 +1,6 @@
 import React from "react";
 import Grid from "@mui/material/Unstable_Grid2";
 import { Container } from "@mui/material";
-import Description from "../Component/Description";
 import { CustomizedCard } from "../Global/Style";
 import { CustomizedButton } from "../Global/Style";
 import "../Styling/ReprotPage.css";
@@ -65,21 +64,7 @@ const ReprotPage = () => {
             </CustomizedCard>
           </Grid>
         </Grid>
-        <div className="DescriptionContainer">
-          <Description
-            Desc="-
-          Report - In this option, admin can upload the data and input data. There will be two types of reports SEBI and GRI and customized report."
-          />
-          <Description
-            Desc="- Create Report - Admin can create report in three frameworks.
-	        SEBI - Admin can select financial year through a popup. He can generate create or download reports there."
-          />
-          <Description Desc="- GRI -Admin can select financial year through a popup. Admin will select quarters and months from the dropdown. He can generate create or download reports there" />
-          <Description
-            Desc="- Customize Report - Admin can manage customize data points. Admin can also download reports.
-            My report - Admin will get a list of created reports."
-          />
-        </div>
+
       </Container>
     </div>
   );

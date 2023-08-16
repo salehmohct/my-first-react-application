@@ -3,9 +3,9 @@ import React from "react";
 import Grid from "@mui/material/Unstable_Grid2";
 import { Container } from "@mui/material";
 import Input from "../Component/Input";
-import Description from "../Component/Description";
+
 import "../Styling/ProfileDetail.css";
-import { CustomizedButton } from "../Global/Style";
+
 const ProfileDetails = () => (
   <div className="ProfilePage">
     <div className="button-container">
@@ -134,10 +134,6 @@ const ProfileDetails = () => (
           />
         </Grid>
       </Grid>
-      <div className="footerContainer">
-        <CustomizedButton className="button">submit</CustomizedButton>
-        <Description Desc="Admin can edit profile detail name, password, logout." />
-      </div>
     </Container>
   </div>
 );

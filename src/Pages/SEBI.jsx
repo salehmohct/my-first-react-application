@@ -1,7 +1,6 @@
 import React from "react";
 import Grid from "@mui/material/Unstable_Grid2";
 import { Container } from "@mui/material";
-import Description from "../Component/Description";
 import BasicAccordion from "../Component/SimpleAccordion";
 import { CustomizedButton } from "../Global/Style";
 import TableBody from "@mui/material/TableBody";
@@ -85,13 +84,6 @@ const Sebi = () => (
           </TableContainer>
         </Grid>
       </Grid>
-      <div className="Descriotion-container">
-        <Description
-          Desc="
-	SEBI - Admin can select financial year through a popup. He can generate create or download reports there.
-"
-        />
-      </div>
     </Container>
   </>
 );

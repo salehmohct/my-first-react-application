@@ -3,7 +3,7 @@ import Grid from "@mui/material/Unstable_Grid2";
 import { Container } from "@mui/material";
 import Input from "../Component/Input";
 import { CustomizedButton } from "../Global/Style";
-import Description from "../Component/Description";
+
 import BasicAccordion from "../Component/SimpleAccordion";
 import "../Styling/DataUpload.css";
 const DataUpload = () => (
@@ -84,11 +84,6 @@ const DataUpload = () => (
               forInput="Report 8"
             />
           </Grid>
-          <div className="Descriotion-container">
-            <Description Desc="- Data Upload - Admin can upload data manually or in a CSV file." />
-            <Description Desc="- Location - Admin can select a location from the dropdown." />
-            <Description Desc="- Upload data - Admin can upload data manually or in a CSV file. Admin can also bulk upload data." />
-          </div>
         </Grid>
       </Grid>
     </Container>

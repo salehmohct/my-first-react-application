@@ -10,11 +10,9 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import EditIcon from "@mui/icons-material/Edit";
 import "../Styling/MyReport.css";
 import { CustomizedButton } from "../Global/Style";
-import Description from "../Component/Description";
 function createData(name, calories, fat, carbs, protein, report) {
   return { name, calories, fat, carbs, protein, report };
 }
-
 const rows = [
   createData(
     "lorem ipsum",
@@ -91,11 +89,7 @@ export default function MyReport() {
           </TableHead>
           <TableBody>
             {rows.map((row) => (
-              <TableRow
-                className="BodyRow"
-                key={row.name}
-                //sx={{ "&:last-child td, &:last-child th": { border: 1 } }}
-              >
+              <TableRow className="BodyRow" key={row.name}>
                 <TableCell sx={{ border: 1 }} component="th" scope="row">
                   {row.name}
                 </TableCell>
@@ -127,9 +121,6 @@ export default function MyReport() {
           </TableBody>
         </Table>
       </TableContainer>
-      <div className="Descriotion-container">
-        <Description Desc="- My report - Admin will get a list of created reports." />
-      </div>
     </>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import Grid from "@mui/material/Unstable_Grid2";
 import { Container } from "@mui/material";
-import Description from "../Component/Description";
+
 import BasicAccordion from "../Component/SimpleAccordion";
 import { CustomizedButton } from "../Global/Style";
 import TableBody from "@mui/material/TableBody";
@@ -85,12 +85,6 @@ const Gri = () => (
           </TableContainer>
         </Grid>
       </Grid>
-      <div className="Descriotion-container">
-        <Description
-          Desc="
-          GRI -Admin can select financial year through a popup. Admin will select quarters and months from the dropdown. He can generate create or download reports there"
-        />
-      </div>
     </Container>
   </>
 );

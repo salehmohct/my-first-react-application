@@ -2,7 +2,7 @@ import * as React from "react";
 import "../Styling/Login.css";
 import Input from "../Component/Input";
 import BasicButtons from "../Component/Button";
-import Description from "../Component/Description";
+
 import { CustomizedCard } from "../Global/Style";
 import { Link } from "react-router-dom";
 import { Paths } from "../Router";
@@ -46,11 +46,6 @@ const SignUp = () => (
         Already have an account ? <Link to={Paths.home}>Login</Link>{" "}
       </p>
     </CustomizedCard>
-    <Description
-      Desc="Registration - The admin will register himself by email id and receive verification email.
-            Region"
-    ></Description>
-    <Description Desc=" - There will be four regions the admin need to select its region."></Description>
   </>
 );
 

@@ -2,7 +2,7 @@ import * as React from "react";
 import "../Styling/Login.css";
 import Input from "../Component/Input";
 import { CustomizedButton } from "../Global/Style";
-import Description from "../Component/Description";
+
 import { CustomizedCard } from "../Global/Style";
 import { Link } from "react-router-dom";
 import { Paths } from "../Router";
@@ -45,7 +45,6 @@ function Login() {
           </Link>{" "}
         </p>
       </CustomizedCard>
-      <Description Desc="Admins can Log in by email id & password"></Description>
     </>
   );
 }

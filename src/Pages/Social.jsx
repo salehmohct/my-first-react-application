@@ -2,7 +2,7 @@ import * as React from "react";
 import Grid from "@mui/material/Unstable_Grid2";
 import { Container } from "@mui/material";
 import Chart from "../Component/Chart";
-import Description from "../Component/Description";
+
 import "../Styling/Dashboard.css";
 export default function Social() {
   return (
@@ -19,10 +19,6 @@ export default function Social() {
         </Grid>
         <Grid xs={12}></Grid>
       </Grid>
-      <div className="Descriotion-container">
-        <Description Desc="- In this dashboard screen, admin will get ESG data, Profile, Navigation bar, Reports, Notification, and Analytics.Dashboard " />
-        <Description Desc="- Admin will get analytics reports, profile details, and logout option" />
-      </div>
     </Container>
   );
 }

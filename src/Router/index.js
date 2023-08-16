@@ -1,22 +1,25 @@
-import Login from "../Pages/Login";
-import ForgetPassword from "../Pages/ForgetPassword";
-import SignUp from "../Pages/SignUp";
-import Verfication from "../Pages/Verfication";
-import Verfied from "../Pages/Verfied";
-import ResponsiveDrawer from "../Component/ResponsiveDrawer";
-import AutoGrid from "../Pages/Dashboard";
-import CompanyDetails from "../Pages/CompanyDetails";
-import ProfileDetails from "../Pages/ProfileDetails";
-import ReprotPage from "../Pages/ReportPage";
-import Gri from "../Pages/GriReport";
-import Sebi from "../Pages/SEBI";
-import CustomizeReport from "../Pages/CustomizeReport";
-import MyReport from "../Pages/MyReport";
-import DataUpload from "../Pages/DataUpload";
-import BulkUpload from "../Pages/BulkUpload";
-import Environement from "../Pages/Environement";
-import Social from "../Pages/Social";
-import Governance from "../Pages/Governance";
+import { lazy } from "react";
+
+const Login = lazy(() => import("../Pages/Login"));
+const ForgetPassword = lazy(() => import("../Pages/ForgetPassword"));
+const SignUp = lazy(() => import("../Pages/SignUp"));
+const Verfication = lazy(() => import("../Pages/Verfication"));
+const Verfied = lazy(() => import("../Pages/Verfied"));
+const ResponsiveDrawer = lazy(() => import("../Component/ResponsiveDrawer"));
+const AutoGrid = lazy(() => import("../Pages/Dashboard"));
+const CompanyDetails = lazy(() => import("../Pages/CompanyDetails"));
+const ProfileDetails = lazy(() => import("../Pages/ProfileDetails"));
+const ReprotPage = lazy(() => import("../Pages/ReportPage"));
+const Gri = lazy(() => import("../Pages/GriReport"));
+const Sebi = lazy(() => import("../Pages/SEBI"));
+const CustomizeReport = lazy(() => import("../Pages/CustomizeReport"));
+const MyReport = lazy(() => import("../Pages/MyReport"));
+const DataUpload = lazy(() => import("../Pages/DataUpload"));
+const BulkUpload = lazy(() => import("../Pages/BulkUpload"));
+const Environement = lazy(() => import("../Pages/Environement"));
+const Social = lazy(() => import("../Pages/Social"));
+const Governance = lazy(() => import("../Pages/Governance"));
+
 export const Paths = {
   home: "/",
   forgetPassword: "/forgetPassword",

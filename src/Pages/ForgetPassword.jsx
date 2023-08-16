@@ -25,9 +25,6 @@ const ForgetPassword = () => (
         <CustomizedButton>Submit</CustomizedButton>
       </form>
     </CustomizedCard>
-    <div className="forgetPasswordDesc">
-      <Description Desc="Admin can recover their account by their registered email id."></Description>
-    </div>
   </>
 );
 
