@@ -1,0 +1,83 @@
+.forgetpassword {
+  font-family: Inter;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  margin-top: 5px;
+  cursor: pointer;
+  margin-left: 50%;
+  text-decoration: none;
+}
+.account,
+.SingUpaccount {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.account {
+  margin-top: 40px;
+}
+.span2 {
+  text-decoration: none;
+  color: #ff0000;
+}
+.account > span,
+.SingUpaccount > span {
+  color: #ff0000;
+  cursor: pointer;
+}
+.CustomeCard {
+  margin-top: 250px !important ;
+  height: 240px !important;
+}
+.CustomeCard .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 10px;
+}
+.CustomeCard .text > svg {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+.CustomeCard .text span {
+  color: red;
+}
+
+.CustomeCard2 .CheckCircle {
+  font-size: 150px;
+  color: rgba(26, 132, 0, 1);
+}
+.logoConainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MuiButton-text {
+  margin: 10px auto !important;
+}
+.Description {
+  text-align: center !important;
+  font-size: 20px !important;
+}
+.ForgetPassword {
+  margin-bottom: 10px !important;
+}
+.SignUpCard {
+  margin-bottom: 10px !important;
+}
+.SignUpButton .button {
+  margin: 10px auto !important;
+  width: fit-content !important;
+}

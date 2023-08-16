@@ -1,0 +1,68 @@
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.input-container {
+  margin-left: 20px !important;
+}
+.Card {
+  width: auto !important;
+  margin: 0 !important;
+  height: 250px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Card .box {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(165, 165, 165, 1);
+}
+.Card h5 {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: pointer;
+}
+.DescriptionContainer {
+  margin-top: 20px;
+}
+.DescriptionContainer .Description {
+  font-size: 18px !important;
+  margin: 0 !important;
+}
+.title-class {
+  padding: 10px !important;
+  border-bottom: 1px solid black !important;
+  text-align: left !important;
+}
+.swal2-input {
+  width: 40% !important;
+  margin: 10px !important;
+  height: 40px !important;
+}
+.swal2-input::placeholder {
+  font-size: 15px;
+}
+.confirm-button-class {
+  width: 250px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid #d9d9d9;
+  padding: 5px;
+  background-color: black !important;
+}
+.input-conainer {
+  display: flex;
+}
+.input-conainer > label {
+  font-size: 10px;
+  line-height: 60px;
+}
+.DescriptionContainer > h1 {
+  text-align: left !important;
+}

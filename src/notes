@@ -1,6 +1,33 @@
+https://www.figma.com/file/nEDFhVnanFFEYDAbM8Q0ZD/Admin-(Community)?type=design&node-id=5-232&mode=design&t=jUpb40cJJu1wqX0r-0
+https://docs.google.com/document/d/1VAdiohLoKtQRlhFd5imgBH6VIt6JNiHbhfu2V9M0MWE/edit
 git hub notes
 push main project file by master branch
 add new branch "developer" and push all change to it
 
 project notes
-Utils for functional file like generatin id
+1-Utils for functional file like generatin id
+2-install package
+3-restyle material ui Component https://mui.com/material-ui/customization/how-to-customize/
+x="0.5"
+y="0.5"
+width="600"
+height="381"
+rx="11.5"
+fill="#F9F9F9"
+stroke="#969696"
+
+Report - In this option, admin can upload the data and input data. There will be two types of reports SEBI and GRI and customized report.
+
+    Create Report - Admin can create report in three frameworks.
+    SEBI - Admin can select financial year through a popup. He can generate create or download reports there.
+
+GRI -Admin can select financial year through a popup. Admin will select quarters and months from the dropdown. He can generate create or download reports there
+Customize Report - Admin can manage customize data points. Admin can also download reports.
+My report - Admin will get a list of created reports.
+
+///////////////
+ملاحظة ع استخدام القرد في تقسيم الشاشة من دون اعمدة في الكستوم ريبورت
+
+Data Upload - Admin can upload data manually or in a CSV file.
+Location - Admin can select a location from the dropdown.
+Upload data - Admin can upload data manually or in a CSV file. Admin can also bulk upload data.

@@ -1,0 +1,18 @@
+.button-container {
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+.button {
+  margin: 0 !important;
+}
+.input-container {
+  padding-top: 15px;
+}
+.footerContainer .button {
+  margin: 40px auto 0 !important;
+}
+.footerContainer .Description {
+  margin: 5px auto !important;
+  font-size: 18px !important;
+  text-align: center !important;
+}

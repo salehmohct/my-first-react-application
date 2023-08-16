@@ -1,0 +1,42 @@
+.HeadRow {
+  background: linear-gradient(0deg, #c6c4c4, #828282),
+    linear-gradient(0deg, #e5e5e5, #e5e5e5);
+}
+.HeadRow > th {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.BodyRow {
+  background: rgba(255, 255, 255, 1);
+}
+.BodyRow > th,
+.BodyRow > td {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.IconCell {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.IconCell .Delete {
+  color: red;
+  cursor: pointer;
+}
+.IconCell .Edit {
+  color: blue;
+  cursor: pointer;
+}
+.Descriotion-container {
+  margin-top: 100px !important;
+}
+.Descriotion-container h1 {
+  text-align: center !important;
+}
