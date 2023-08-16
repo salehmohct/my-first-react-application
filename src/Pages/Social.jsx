@@ -2,7 +2,7 @@ import * as React from "react";
 import Grid from "@mui/material/Unstable_Grid2";
 import { Container } from "@mui/material";
 import Chart from "../Component/Chart";
-import Description from "../Component/Description";
+
 import "../Styling/Dashboard.css";
 export default function Social() {
   return (
