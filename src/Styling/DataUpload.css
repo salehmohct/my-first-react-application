@@ -1,0 +1,38 @@
+.button-container {
+  justify-content: center !important;
+}
+.button-container > button {
+  border-radius: 0;
+}
+.button-container > button:first-of-type {
+  background: linear-gradient(0deg, #8f8f8f, #8f8f8f),
+    linear-gradient(0deg, #ebebf0, #ebebf0);
+  width: 20%;
+  color: black;
+}
+.button-container > button:last-of-type {
+  background: linear-gradient(0deg, #c7c4c4, #b7b6b6),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  color: black;
+  width: 20%;
+}
+.reprot {
+  margin-bottom: 30px !important;
+}
+.reprot > input {
+  width: auto !important;
+}
+.grid1 {
+  margin-bottom: 20px !important;
+}
+.Descriotion-container > h1 {
+  text-align: left !important;
+}
+.upload {
+  display: flex;
+}
+.input {
+  margin-right: 5px;
+  border-radius: 5px;
+  background-color: rgba(239, 239, 239, 1);
+}
