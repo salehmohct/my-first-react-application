@@ -85,12 +85,6 @@ const Gri = () => (
           </TableContainer>
         </Grid>
       </Grid>
-      <div className="Descriotion-container">
-        <Description
-          Desc="
-          GRI -Admin can select financial year through a popup. Admin will select quarters and months from the dropdown. He can generate create or download reports there"
-        />
-      </div>
     </Container>
   </>
 );

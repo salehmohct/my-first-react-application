@@ -134,10 +134,6 @@ const ProfileDetails = () => (
           />
         </Grid>
       </Grid>
-      <div className="footerContainer">
-        <CustomizedButton className="button">submit</CustomizedButton>
-        <Description Desc="Admin can edit profile detail name, password, logout." />
-      </div>
     </Container>
   </div>
 );

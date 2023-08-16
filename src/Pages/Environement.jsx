@@ -19,10 +19,7 @@ export default function Environement() {
         </Grid>
         <Grid xs={12}></Grid>
       </Grid>
-      <div className="Descriotion-container">
-        <Description Desc="- In this dashboard screen, admin will get ESG data, Profile, Navigation bar, Reports, Notification, and Analytics.Dashboard " />
-        <Description Desc="- Admin will get analytics reports, profile details, and logout option" />
-      </div>
+
     </Container>
   );
 }

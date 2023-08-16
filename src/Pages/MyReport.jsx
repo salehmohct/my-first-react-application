@@ -127,9 +127,6 @@ export default function MyReport() {
           </TableBody>
         </Table>
       </TableContainer>
-      <div className="Descriotion-container">
-        <Description Desc="- My report - Admin will get a list of created reports." />
-      </div>
     </>
   );
 }

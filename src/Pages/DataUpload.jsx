@@ -84,11 +84,6 @@ const DataUpload = () => (
               forInput="Report 8"
             />
           </Grid>
-          <div className="Descriotion-container">
-            <Description Desc="- Data Upload - Admin can upload data manually or in a CSV file." />
-            <Description Desc="- Location - Admin can select a location from the dropdown." />
-            <Description Desc="- Upload data - Admin can upload data manually or in a CSV file. Admin can also bulk upload data." />
-          </div>
         </Grid>
       </Grid>
     </Container>

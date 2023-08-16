@@ -45,7 +45,6 @@ function Login() {
           </Link>{" "}
         </p>
       </CustomizedCard>
-      <Description Desc="Admins can Log in by email id & password"></Description>
     </>
   );
 }

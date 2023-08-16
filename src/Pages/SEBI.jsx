@@ -85,13 +85,7 @@ const Sebi = () => (
           </TableContainer>
         </Grid>
       </Grid>
-      <div className="Descriotion-container">
-        <Description
-          Desc="
-	SEBI - Admin can select financial year through a popup. He can generate create or download reports there.
-"
-        />
-      </div>
+
     </Container>
   </>
 );
