@@ -29,7 +29,6 @@ import "../Styling/ResponsiveDrawer.css";
 const drawerWidth = 240;
 
 function ResponsiveDrawer(props) {
-  const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
@@ -81,9 +80,6 @@ function ResponsiveDrawer(props) {
     </div>
   );
 
-  const container =
-    window !== undefined ? () => window().document.body : undefined;
-
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
@@ -108,13 +104,7 @@ function ResponsiveDrawer(props) {
             <h1 className="PageTitle">{props.name}</h1>
             <Link to={Paths.ProfileDetails}>
               <IconButton sx={{ p: 0 }}>
-                <Avatar
-                  className="avatart"
-                  onClick={() => {
-                    console.log("saleh");
-                  }}
-                  alt="Remy_Sharp"
-                />
+                <Avatar className="avatart" alt="Remy_Sharp" />
               </IconButton>
             </Link>
           </CusomizedAppBar>
@@ -127,7 +117,6 @@ function ResponsiveDrawer(props) {
       >
         {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
         <Drawer
-          container={container}
           variant="temporary"
           open={mobileOpen}
           onClose={handleDrawerToggle}
@@ -167,18 +156,10 @@ function ResponsiveDrawer(props) {
         }}
       >
         <Toolbar />
-        <Typography paragraph>{props.Pages}</Typography>
+        <Typography variant="h1">{props.Pages}</Typography>
       </Box>
     </Box>
   );
 }
-
-ResponsiveDrawer.propTypes = {
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
-  window: PropTypes.func,
-};
 
 export default ResponsiveDrawer;

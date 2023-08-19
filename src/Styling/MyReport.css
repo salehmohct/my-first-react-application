@@ -21,7 +21,7 @@
   letter-spacing: 0em;
   text-align: left;
 }
-.IconCell {
+/* .IconCell {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
@@ -33,7 +33,7 @@
 .IconCell .Edit {
   color: blue;
   cursor: pointer;
-}
+} */
 .Descriotion-container {
   margin-top: 100px !important;
 }
