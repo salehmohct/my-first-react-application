@@ -14,14 +14,14 @@ function createData(name, calories, fat, carbs, protein) {
 }
 
 const rows = [
-  createData("Lorem"),
-  createData("Lorem"),
-  createData("Lorem"),
-  createData("Lorem"),
-  createData("Lorem"),
-  createData("Lorem"),
-  createData("Lorem"),
-  createData("Lorem"),
+  createData("Lorem1"),
+  createData("Lorem2"),
+  createData("Lorem3"),
+  createData("Lorem4"),
+  createData("Lorem5"),
+  createData("Lorem6"),
+  createData("Lorem7"),
+  createData("Lorem8"),
 ];
 
 const CompanyDetails = () => (

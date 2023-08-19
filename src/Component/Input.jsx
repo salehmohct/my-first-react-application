@@ -5,7 +5,7 @@ import FormControl from "@mui/material/FormControl";
 const Input = (props) => (
   <FormControl>
     {" "}
-    <CustomizedLabel for={props.forInput}>{props.Label}</CustomizedLabel>
+    <CustomizedLabel htmlFor={props.forInput}>{props.Label}</CustomizedLabel>
     <CustomizedInput
       className={props.CustomeClass}
       type={props.type}
